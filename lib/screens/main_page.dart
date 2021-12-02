@@ -27,10 +27,10 @@ class _MainPageState extends State<MainPage> {
         backgroundColor: Colors.grey,
         selectedItemColor: Colors.deepPurple,
         unselectedItemColor: Colors.black,
-        iconSize: 50,
+        iconSize: 35,
         showSelectedLabels: true,
-        unselectedFontSize: 25,
-        selectedFontSize: 25,
+        unselectedFontSize: 20,
+        selectedFontSize: 20,
         type: BottomNavigationBarType.fixed,
         currentIndex: index,
         onTap: (value){
